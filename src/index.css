@@ -1,4 +1,78 @@
-.pixel {
-  width: 100px;
-  height: 100px;
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 3rem;
+}
+
+header p {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.view {
+  position: relative;
+}
+
+#pixel {
+  width: 10px;
+  height: 10px;
+  background-color: black;
+  position: absolute;
+  top: 50%; 
+  left: 50%;
+}
+
+.view {
+  margin: 2rem;
+  min-width: 20vw;
+  min-height: 400px;
+  border: 4px solid black;
+}
+
+.App-nav {
+  background-color: black;
+  color: white;
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 2rem;
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  max-width: 90vw;
+}
+
+.btn {
+  background: white;
+	color: black;
+	border: none;
+	padding: 1rem;
+	font: inherit;
+	outline: inherit;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  margin: 0 2rem;
+  align-items: center;
+}
+
+.btn:hover {
+  background-color: rgb(255, 193, 251);
+}
+
+.btn:active {
+  background-color: rgb(255, 193, 251);
+  box-shadow: 0 5px rgb(255, 104, 250);
+  transform: translateY(4px);
+}
+
+.btn-sub {
+  font-size: 1rem;
 }

@@ -1,8 +1,11 @@
 import React from 'react'
+import Pixel from './Pixel'
 
 const View = () => {
   return (
-    <div>View</div>
+    <div className="view">
+      <Pixel/>
+    </div>
   )
 }
 

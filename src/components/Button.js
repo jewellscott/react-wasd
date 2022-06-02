@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = () => {
+const Button = ({ name, sub }) => {
 
   let moveUp = () => {
 
@@ -8,10 +8,13 @@ const Button = () => {
   
   return (
     <button
-      title={title}
-      onClick={onClick}
+    type="button"
+    className="btn" 
+    name={name}
+    data-sub={sub}
     >
-    {title}
+      <span className="btn-main">{name}</span>
+      <span className="btn-sub">{sub}</span>
     </button>
   )
 }
