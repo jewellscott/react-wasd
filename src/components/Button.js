@@ -1,10 +1,6 @@
 import React from 'react'
 
 const Button = ({ name, sub }) => {
-
-  let moveUp = () => {
-
-  }
   
   return (
     <button

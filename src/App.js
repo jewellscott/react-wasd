@@ -4,6 +4,12 @@ import Navigation from './components/Navigation';
 import View from './components/View';
 
 function App() {
+
+  let moveLeft = () => {
+  }
+
+
+
   return (
     <div className="App">
       <Header />
