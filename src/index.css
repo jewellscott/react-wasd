@@ -45,8 +45,14 @@ header p {
   margin: 2rem;
   padding: 2rem;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   max-width: 90vw;
+}
+
+.buttons {
+  display: flex; 
+  margin-bottom: 2rem;
 }
 
 .btn {

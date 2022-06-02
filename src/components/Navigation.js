@@ -4,7 +4,8 @@ import Button from './Button'
 const Navigation = () => {
   return (
     <nav className="App-nav">
-      <Button
+      <div className="buttons">
+        <Button
         name={"W"}
         sub={"Up / ↑"}
       />
@@ -19,6 +20,10 @@ const Navigation = () => {
         name={"D"}
         sub={"Right / →"}
       />
+      </div>
+      <Button 
+        name="reset">
+      </Button>
     </nav>
   )
 }
