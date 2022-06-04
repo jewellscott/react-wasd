@@ -8,17 +8,21 @@ const Navigation = () => {
         <Button
         name={"W"}
         sub={"Up / ↑"}
+        move={"up"}
       />
        <Button
         name={"A"}
         sub={"Left / ←"}
+        move="left"
       /> <Button
         name={"S"}
         sub={"Down / ↓"}
+        move="down"
       />
       <Button
         name={"D"}
         sub={"Right / →"}
+        move="right"
       />
       </div>
       <Button 
