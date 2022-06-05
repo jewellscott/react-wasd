@@ -1,14 +1,11 @@
 import React from 'react'
-import movePixel from './js/movePixel'
 // import { useState } from 'react';
 
-const Button = ({ name, sub, move }) => {
+const Button = ({ name, sub, click }) => {
 
-  // const [ position, setPosition ] = useState();
-
-  // setPosition = ({ move }) => {
-  //   movePixel({move});
-  // }
+  const btnClick = (e) => {
+    click();
+  }
   
   return (
     <button
@@ -16,10 +13,9 @@ const Button = ({ name, sub, move }) => {
     className="btn" 
     name={name}
     data-sub={sub}
-    data-move={move}
-    onClick={movePixel(move)}
+    onClick={btnClick}
     >
-      <span className="btn-main">{name }</span>
+      <span className="btn-main">{name}</span>
       <span className="btn-sub">{sub}</span>
     </button>
   )

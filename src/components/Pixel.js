@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Pixel = () => {
+const Pixel = ({ up, left, down, right }) => {
   return (
-    <div id="pixel"></div>
+    <div id="pixel" style={{ left:`calc(50% + ${left}px)`, top:`calc(50% + ${up}px)` }}>
+
+    </div>
   )
 }
 
